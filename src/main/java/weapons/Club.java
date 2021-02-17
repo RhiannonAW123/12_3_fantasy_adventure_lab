@@ -1,15 +1,15 @@
 package weapons;
 
 import behaviours.IWeapon;
+import enemies.Enemy;
 
-public class Club implements IWeapon {
-    private int damageValue;
+public class Club extends Weapon implements IWeapon {
 
-    public Club(int damageValue) {
-        this.damageValue = damageValue;
+    public Club(WeaponType weaponType) {
+        super(weaponType);
     }
 
-    public int attack(){
-        return damageValue;
+    public int attack(Enemy enemy, WeaponType weaponType) {
+        return enemy.getHp() - weaponType.getDamageValue();
     }
 }

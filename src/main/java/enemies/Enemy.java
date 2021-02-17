@@ -1,5 +1,7 @@
 package enemies;
 
+import weapons.WeaponType;
+
 public abstract class Enemy {
 
     private int Hp;
@@ -12,7 +14,7 @@ public abstract class Enemy {
         return this.Hp;
     }
 
-    public int takeDamage(){
-        return this.Hp;
+    public void takeDamage(WeaponType weaponType){
+        this.Hp -= weaponType.getDamageValue();
     }
 }

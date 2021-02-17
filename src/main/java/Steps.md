@@ -2,8 +2,8 @@
 IWeapon( attack() ) X
 Sword, axe, club class (int damageValue) X
 
-Enemy HP
-Enemy takeDamage() and fighters attack()
+Enemy HP X
+Enemy takeDamage() and fighters attack()X
 
 Barbarian, Knight and Dwarf: swapWeapon()
 

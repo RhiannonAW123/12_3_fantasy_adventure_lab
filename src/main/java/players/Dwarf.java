@@ -1,5 +1,7 @@
 package players;
 
+import enemies.Enemy;
+
 public class Dwarf extends Fighter {
 
     private int beardLength;
@@ -12,6 +14,10 @@ public class Dwarf extends Fighter {
     public int getBeardLength(){
         return  this.beardLength;
     }
+//
+//    public int tickleEnemy(){
+//        return enemy.getHp()
+//    }
 
 
 }

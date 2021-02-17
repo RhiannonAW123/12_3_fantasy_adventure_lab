@@ -1,5 +1,7 @@
 package players;
 
+import enemies.Enemy;
+
 public class Barbarian extends Fighter {
     private int strength;
     public Barbarian(String name, int hp, int strength) {
@@ -14,4 +16,5 @@ public class Barbarian extends Fighter {
     public void setStrength(int strength) {
         this.strength = strength;
     }
+
 }
