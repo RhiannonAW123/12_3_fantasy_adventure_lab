@@ -1,4 +1,4 @@
-package healing;
+package behaviours;
 
 public interface IHeal {
 }

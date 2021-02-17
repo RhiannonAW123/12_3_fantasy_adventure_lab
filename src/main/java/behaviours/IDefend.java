@@ -1,4 +1,4 @@
-package creatures;
+package behaviours;
 
 public interface IDefend {
 }
