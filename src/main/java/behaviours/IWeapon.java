@@ -1,7 +1,6 @@
 package behaviours;
 
 import enemies.Enemy;
-import weapons.Weapon;
 import weapons.WeaponType;
 
 public interface IWeapon {
